@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Russo One", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  margin: 15px 0px;
+  line-height: 25px;
+}
+
+/* body {
+  background-color: lightgray;
+} */
+
+/*========================================
+  *           Header
+  *=========================================*/
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  background-color: lightgray;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 100px;
+  margin: 55px;
+}
+
+header nav a:hover {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/*========================================
+  *     Logo Section
+*=========================================*/
+
+.logo-container {
+  padding: 75px 0 0 0;
+  text-align: center;
+  border-bottom: 1px solid #7c7b7b;
+}
+
+.logo-container img {
+  margin-top: 20px;
+  max-width: 400px;
+  mix-blend-mode: multiply;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 0 0 0 90%;
+  justify-content: space-evenly;
+}
+
+.social-media img {
+  text-align: right;
+  width: 30px;
+  mix-blend-mode: multiply;
+}
+
+/*========================================
+  *     Featured Cars Section
+*=========================================*/
+
+.featured-cars-container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.featured-cars {
+  padding: 50px 0;
+  border-bottom: 1px solid black;
+}
+
+.featured-cars h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.car-list {
+  text-align: center;
+  display: flex;
+}
+
+.items {
+  padding: 25px;
+}
+
+.items img {
+  width: 210px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90%;
+  margin: 2% 0 0 5%;
+  border-bottom: 1px solid black;
+}
+
+.serving-container {
+  display: flex;
+  width: 90%;
+  margin: 2% 0 0 5%;
+  border-bottom: 1px solid black;
+}
+
+.about {
+  margin: 5%;
+  text-align: center;
+}
+
+.about-container img {
+  width: 250px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.serving-container img {
+  width: 250px;
+  margin: 5% 0 10% 0;
+  border: 1px solid black;
+}
+
+.about h1 {
+  font-size: 25px;
+}
+
+/*========================================
+  *     Avaliable Cars Section
+*=========================================*/
+
+.avaliable-cars-container {
+  margin: 0 auto;
+  width: 90%;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 5%;
+}
+
+.avaliable-paragraph-container {
+  text-align: center;
+  width: 90%;
+  padding: 2%;
+  margin: 0 auto;
+}
+
+.avaliable-cars h1 h2 {
+  margin-left: 40%;
+}
+
+.cars {
+  display: flex;
+  margin: 30px;
+  text-align: center;
+}
+
+.cars p {
+  padding: 25px;
+}
+
+.cars img {
+  max-width: 250px;
+  margin: 15px;
+  border: 1px solid black;
+}
+
+button {
+  font-size: 15px;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  width: 300px;
+  height: 50px;
+  margin: 2% 2% 0 2%;
+  transition-duration: 0.4s;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.12),
+    0 2px 3px 2px rgba(0, 0, 0, 0.24);
+}
+
+button:hover {
+  background-color: #9f0202;
+  color: white;
+}
+
+.cars:nth-child(even) {
+  background: #d4d4d4;
+}
+
+/*========================================
+  *     Contact Section
+*=========================================*/
+
+.store-container {
+  display: flex;
+  margin: 5% 0 0 25%;
+  text-align: center;
+}
+
+.store-container ul {
+  margin: 0 10% 0 0;
+}
+
+.store-container li {
+  margin: 0 0 8% 0;
+}
+
+.store-paragraph {
+  padding: 8% 30% 5% 30%;
+  text-align: center;
+  border-bottom: 1px solid #7c7b7b;
+}
+
+.store-paragraph h2 {
+  font-size: 35px;
+  color: #9f0202;
+}
+
+.contact-section {
+  padding: 100px 0;
+  width: 630px;
+  margin: 0 auto;
+}
+
+.form {
+  margin: 20px 0px;
+}
+
+.form div {
+  margin-bottom: 10px;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.form input,
+.form textarea {
+  border: 1px solid black;
+  padding: 9px 11px;
+}
+
+.submit input {
+  background: #333;
+  color: white;
+  font-family: "Comfortaa", sans-serif;
+  border: none;
+  border-radius: 3px;
+}
+
+footer {
+  color: white;
+  background: black;
+  padding: 10px 30px;
+  text-align: center;
+}
