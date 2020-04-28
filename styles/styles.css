@@ -232,9 +232,14 @@ button:hover {
 }
 
 .store-paragraph {
-  padding: 8% 30% 5% 30%;
   text-align: center;
   border-bottom: 1px solid black;
+  margin: 8% 0 0 10%;
+  width: 80%;
+}
+
+.store-paragraph p {
+  padding: 0 10% 5% 10%;
 }
 
 .store-paragraph h2 {
